@@ -28,7 +28,7 @@ if score >=90 {
     print("C")
 }
 ~~~
->A
+    A
 ~~~swift
 var score = 95
 
@@ -40,7 +40,7 @@ if score >= 70 {
     print("C")
 }
 ~~~
-> B
+    B
 
 *즉, 범위가 작은 조건이 앞에 와야 한다.*
 
@@ -113,10 +113,52 @@ default:
     print("30")
 }
 ~~~
->5
-
->100
-
->30
+    5
+    100
+    30
 
 [fallthrough사용시 유의점](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/fallthrough.md)
+
+### 3. 범위 매칭
++ 스위치문은 기본적으로 부등식을 사용할 수 없지만, 범위연산자와 패턴 매칭 연산자를 통해 범위 매칭을 지원한다.
+~~~swift
+//내부적으로 ==, ~= 을 지원
+switch number {
+case ..< 0:
+    print("0 미만")
+case 0...99:
+    print("0 ~ 99")
+case 100...:
+    print("100 이상")
+default:
+    break
+}
+~~~
+
+### 4. 바인딩
+*바인딩? 기존의 변수나 상수를 복사하여 새로운 식별자로 할당하는 것*
+~~~swift
+var num = 27
+
+switch num {
+case let n:
+    print("정수: \(n)")
+default:
+    break
+}
+~~~
++ 상수 바인딩이 기본 (-> 바인딩한 값을 내부에서 초기화 해야 할때만 변수로 바인딩)
++ 바인딩 된 상수는 해당 케이스 내에서만 사용 가능하다.
++ 주로 조건을 확인하는 where와 같이 사용된다. 
+~~~swift
+var num = 10
+
+switch num {
+case let a where a % 2 == 0:
+    print("짝수: \(a)")
+case let a where a % 2 != 0:
+    print("홀수: \(a)")
+default:
+    break
+}
+~~~
