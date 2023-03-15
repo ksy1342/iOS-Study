@@ -9,17 +9,13 @@ var result = score >= 70 ? 통과 : 탈락
 ## 범위 연산자
 + swith문 case
 + for문
-~~~swift
-for i in 0..<count {
-    print("Person \(i + 1) is called \(names[i])")
-}
-~~~
-
 + 배열의 서브스크립트 문법
-~~~ swift
 
-names[...2]
+## 패턴 매칭 연산자
++ 숫자가 범위 내에 있는지 확인
++ switch문은 내부적으로 구현되어 있음
+~~~swift
+let range = 1...10
 
-names[..<1]
-
+range ~= 5 // true
 ~~~
