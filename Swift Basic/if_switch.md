@@ -119,4 +119,4 @@ default:
 
 >30
 
-[fallthrough사용시 유의점]()
+[fallthrough사용시 유의점](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/fallthrough.md)
