@@ -171,3 +171,26 @@ func doSomething(value: String) {
     print(value)
 }
 ~~~ 
+## inout
++ 함수의 파라미터는 값타입(복사되어서 전달), 상수로 선언되기 때문에 변경 불가.
++ inout을 사용하면 참조로 전달하기 때문에, 변수를 직접 수정할 수 있음.
++ 값이 복사되어 let a, let b로 내부에서 선언되는게 아니라 원본의 주소값을 전달함.
++ 함수 실행 시 앰퍼샌드가 필수.
+~~~swift
+num1 = 123
+num2 = 456
+
+func swapNumbers(a: inout Int, b: inout Int) {
+    var temp = a
+    a = b
+    b = temp
+}
+
+swapNumbers(a: &num1, b: &num2)
+~~~
+
+ *inout파라미터 사용시 주의점*
+ 1) 상수나, 리터럴을 전달하는 것 불가능
+ 2) 파라미터의 기본값 선언을 허용하지 않음
+ 3) 가변파라미터로 선언하는 것 불가능
+
