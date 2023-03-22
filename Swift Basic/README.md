@@ -5,3 +5,4 @@
 + [조건문](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/if_switch.md)
 + [튜플](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/Tuple.md)
 + [반복문](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/Loops.md)
++ [제어전송문](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/control.md)
