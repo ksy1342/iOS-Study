@@ -9,3 +9,4 @@
 + [연산자 우선순위](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Operator_Priority.md)
 + [@discardable](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/discardable.md)
 + [재귀함수](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/%20recursive_function.md)
++ [옵셔널 타입](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/Optional.md)
