@@ -9,7 +9,7 @@ func check(words: String) -> Bool {
         
         print("5글자 미만입니다.")
         
-        return false        // 종료 조건 - 함수 내에서는 return / throw
+        return false      
     }
     
     print("\(words.count)글자입니다.")
