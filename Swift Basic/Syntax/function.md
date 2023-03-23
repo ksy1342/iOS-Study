@@ -86,6 +86,18 @@ print(average(1, 2, 4, 6))
 + 스위프트의 기본 함수들중 이 형태가 많음. 프린트 함수가 대표적 예시
 
         print(items: Any...)
+    + 기본함수 중 파라미터의 타입이 옵셔널인 것들이 있는데, 대부분 기본값이 nil로 설정되어 아규먼트가 생략
+        ~~~swift
+        func doSomePrint(with label: String, name: String? = nil) { 
+            ,,,
+        }
+
+        doSomePrint(with: "레이블")
+        // doSomePrint(with: "레이블", name: "스티브 잡스")
+        // doSomePrint(with: "레이블", name: nil)
+        ~~~
+
+
 
 
 ## 주의점
