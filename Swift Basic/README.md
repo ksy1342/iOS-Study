@@ -8,3 +8,4 @@
 + [제어전송문](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/control.md)
 + [함수](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/function.md)
 + [가드문](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/guard.md)
++ [@discardable](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/discardable.md)
