@@ -9,3 +9,8 @@
 + [함수](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/function.md)
 + [가드문](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/guard.md)
 + [옵셔널 타입](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/Optional.md)
++ 컬렉션
+    * [배열](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/array.md)
+    * [딕셔너리](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/dictionary.md)
+    * [세트](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/set.md)
+    * keyValuePairs
