@@ -138,7 +138,22 @@ nums.shuffled()
 + 개별 요소, 저장 순서를 비교하여 Bool값 리턴
 
 ## 활용
-### 1. 특정 요소 삭제
+### 1. 특정 요소 삭제 
+~~~swift
+var array1 = ["a", "p", "p", "l", "e"]
+
+if let lastIndexOfP = puppy1.lastIndex(of: "p") {
+    puppy1.remove(at: lastIndexOfP)
+}
+
+if !nums.isEmpty {        
+    print("\(nums.count) element(s)")
+} else {
+    print("empty array")
+}
+
+~~~
+
 
 ### 2. 반복문과 배열
 + .enumerated() : Named 튜플 형태로 한개씩 전달
