@@ -14,3 +14,4 @@
     * [딕셔너리](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/dictionary.md)
     * [세트](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/set.md)
     * keyValuePairs
++ [열거형](https://github.com/ksy1342/iOS-Study/blob/main/Swift%20Basic/Syntax/enum.md)
